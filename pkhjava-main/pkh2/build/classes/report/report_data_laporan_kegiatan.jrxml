@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="4a8e6669-1505-4373-9fbc-82c13547e800">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[select * from laporankegiatan]]>
+	</queryString>
+	<field name="id" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Nama_Pendamping" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Telepon" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Waktu_Kegiatan" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Nama_Kegiatan" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Id_peserta" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Nama_Peserta" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="108" splitType="Stretch">
+			<image>
+				<reportElement uuid="4995e931-de99-4492-a5f4-6edad487d296" x="11" y="11" width="144" height="86"/>
+				<imageExpression><![CDATA["C:\\Users\\Me\\Downloads\\projectt_pkh-main\\projectt_pkh-main\\pkhjava-main\\pkh2\\src\\Images\\program keluarga harapan4.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement uuid="55b09ea4-c58d-4c2b-a455-dcf1d5d754c5" x="342" y="25" width="193" height="34"/>
+				<textElement>
+					<font size="24"/>
+				</textElement>
+				<text><![CDATA[Laporan Kegiatan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="2eb475c1-b392-48ce-9691-7e48a8c61600" x="342" y="72" width="193" height="25"/>
+				<textElement textAlignment="Center">
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Program Keluarga Harapan]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch">
+			<line>
+				<reportElement uuid="19bb6db7-053b-473f-b06f-d9db7322fa23" x="0" y="18" width="798" height="1"/>
+			</line>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="20" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="4fa16fee-f50a-4f97-b5e8-7c842f8467f9" x="0" y="0" width="114" height="20"/>
+				<box topPadding="1" leftPadding="6" bottomPadding="1" rightPadding="1">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement/>
+				<text><![CDATA[id]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="46feeb3f-558f-44a7-b12d-05bde5208f0a" x="114" y="0" width="114" height="20"/>
+				<box topPadding="1" leftPadding="6" bottomPadding="1" rightPadding="1">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement/>
+				<text><![CDATA[Nama_Pendamping]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="f20c0cbd-6307-415e-b117-ff70fff98c3f" x="228" y="0" width="114" height="20"/>
+				<box topPadding="1" leftPadding="6" bottomPadding="1" rightPadding="1">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement/>
+				<text><![CDATA[Telepon]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="6fb75af3-db54-405e-a6f7-8ec20003b426" x="342" y="0" width="114" height="20"/>
+				<box topPadding="1" leftPadding="6" bottomPadding="1" rightPadding="1">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement/>
+				<text><![CDATA[Waktu_Kegiatan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="e15340ac-f514-4907-9404-129f77ea8f99" x="456" y="0" width="114" height="20"/>
+				<box topPadding="1" leftPadding="6" bottomPadding="1" rightPadding="1">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement/>
+				<text><![CDATA[Nama_Kegiatan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="9094601c-4a2d-41db-b01f-019d5990b57a" x="570" y="0" width="114" height="20"/>
+				<box topPadding="1" leftPadding="6" bottomPadding="1" rightPadding="1">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement/>
+				<text><![CDATA[Id_peserta]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="8122a5d0-1f22-434a-a877-ced432f066c7" x="684" y="0" width="114" height="20"/>
+				<box topPadding="1" leftPadding="6" bottomPadding="1" rightPadding="1">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement/>
+				<text><![CDATA[Nama_Peserta]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<textField>
+				<reportElement uuid="6517aa3a-31b7-497b-b786-dbf1a46583d6" x="0" y="0" width="114" height="20"/>
+				<box topPadding="1" leftPadding="6" bottomPadding="1" rightPadding="1">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="4198e9ba-ad98-4dc9-a3d1-c25050766d15" x="114" y="0" width="114" height="20"/>
+				<box topPadding="1" leftPadding="6" bottomPadding="1" rightPadding="1">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{Nama_Pendamping}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="a83655df-fd28-4305-a3be-9beaeae2a27c" x="228" y="0" width="114" height="20"/>
+				<box topPadding="1" leftPadding="6" bottomPadding="1" rightPadding="1">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{Telepon}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="8c63353d-b933-48dd-b627-bcd6a4994260" x="342" y="0" width="114" height="20"/>
+				<box topPadding="1" leftPadding="6" bottomPadding="1" rightPadding="1">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{Waktu_Kegiatan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="4b548c68-f87f-4fae-b227-f225d39874da" x="456" y="0" width="114" height="20"/>
+				<box topPadding="1" leftPadding="6" bottomPadding="1" rightPadding="1">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{Nama_Kegiatan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="130077e0-e7ea-4c42-b7c5-a6d9fb1e5ead" x="570" y="0" width="114" height="20"/>
+				<box topPadding="1" leftPadding="6" bottomPadding="1" rightPadding="1">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{Id_peserta}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="12f4b707-31da-49a3-8fba-a828949377dd" x="684" y="0" width="114" height="20"/>
+				<box topPadding="1" leftPadding="6" bottomPadding="1" rightPadding="1">
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{Nama_Peserta}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
